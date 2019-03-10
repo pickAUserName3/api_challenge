@@ -88,7 +88,7 @@ Sample Response:
 
 ```
 Vote a dog pic Enpoint:
-Example: To vote up pass value true for vote field. picid is id of the picture. You can find it in the database. It Throws an error response if the pic id is invalid
+Example: To vote up, pass value true for vote field. picid is id of the picture. You can find it in the database. It Throws an error response if the pic id is invalid
 POST
 http://localhost:8086/dogpics/vote
 
@@ -111,7 +111,7 @@ Response In case of Error:
 
 ```
 Vote a dog pic Enpoint:
-Example: To vote down pass value false for vote field. picid is id of the picture. You can find it in the database.Throws an error response if the pic id is invalid
+Example: To vote down, pass value false for vote field. picid is id of the picture. You can find it in the database.Throws an error response if the pic id is invalid
 POST
 http://localhost:8086/dogpics/vote
 
